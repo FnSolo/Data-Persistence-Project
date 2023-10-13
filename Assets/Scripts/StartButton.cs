@@ -6,6 +6,13 @@ public class StartButton : MonoBehaviour
 {
     public Text Name;
 
+    public InputField EnterName;
+
+    private void Start()
+    {
+        EnterName.text = PlayerPrefs.GetString("name");
+    }
+
     public void LoadMainScene()
     {
         SceneManager.LoadScene("main");

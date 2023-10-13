@@ -283,6 +283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: {fileID: 1709546152}
+  EnterName: {fileID: 1679632836}
 --- !u!1 &493921221
 GameObject:
   m_ObjectHideFlags: 0
